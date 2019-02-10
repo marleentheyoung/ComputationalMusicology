@@ -13,7 +13,7 @@ The corpus I have created consists of 3084 hip hop tracks from various periods i
 - Trap music
 - Concious Hip Hop
 
-I would like to analyze how hip hop has changed over time. Up till now, I have noticed that both energy and danceability was significantly higher in old school rap compared to modern rap and trap music. The list of old school tracks has a mean of 106 BPM tempo, whereas newer subgenres result in an average of 117 BPM. Furthermore, danceability is 12% higher for old school (90's) hip hop compared to the newer trap and glitch hop. 
+In this project I will analyze how hip hop has changed over time. Up till now, I have noticed that both energy and danceability was significantly higher in old school rap compared to modern rap and trap music. The list of old school tracks has a mean of 106 BPM tempo, whereas newer subgenres result in an average of 117 BPM. Furthermore, danceability is 12% higher for old school (90's) hip hop compared to the newer trap and glitch hop. 
 
 New school hip hop contains three times as much instrumentalism as old school hip hop. I had already expected this since the 'wordsmith'/MC was the pionier of hip hop and the rhymes were definitely most important in early hip hop. 
 
