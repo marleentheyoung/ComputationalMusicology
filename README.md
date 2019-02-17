@@ -18,12 +18,6 @@ The corpus I have created consists of multiple spotify lists appended to each ot
 
 Altogether, the combination of these playlists forms one list of 1572 songs, representing both house in general and the specific kwaito style.
 
-In this project I will analyze how hip hop has changed over time. Up till now, I have noticed that both energy and danceability was significantly higher in old school rap compared to modern rap and trap music. The list of old school tracks has a mean of 106 BPM tempo, whereas newer subgenres result in an average of 117 BPM. Furthermore, danceability is 12% higher for old school (90's) hip hop compared to the newer trap and glitch hop. 
-
-New school hip hop contains three times as much instrumentalism as old school hip hop. I had already expected this since the 'wordsmith'/MC was the pionier of hip hop and the rhymes were definitely most important in early hip hop. 
-
-Although modern hip hop is usually faster than old school hip hop, there are some very slow outliers. The minimum in tempo is 50 BPM for new school hip hop, where the minimum for old school hip hop is 80 BPM. I think I do need to include these outliers since this variance could be a signifier of modern hip hop.
-
 ## Exploratory Results
 ### Summary
 The two styles can be summarized as following:
@@ -57,6 +51,8 @@ As can be seen below, the peak of the dancability histogram is located significa
 <br>
 
 ## Tempo
+From the plots below it appears that both styles often have a similar tempo. However, the tempo of kwaito house tracks is spread more widely; some tracks are much slower or faster and are still considered Kwaito House. For general house the tempo density around 125 is much more dense than for kwaito house. This indicates general house being a bit faster-paced for many tracks.
+
 <figure>
     <img src='/images/tempo_smooth_hist.png' width="80%", height=auto/>
     <font size="2">
@@ -66,9 +62,9 @@ As can be seen below, the peak of the dancability histogram is located significa
 </figure>
 
 <figure>
-    <img src='/images/tempo_violin.png' width="80%", height=auto/>
+    <img src='/images/tempo_violin.png' width="40%", height=auto/>
     <font size="2">
-    <figcaption> Fig.1:  smooth histogram visualizing tempo distribution of <br> kwaito house compared to general house music.
+    <figcaption> Fig.1:  violin plot visualizing tempo distribution of <br> kwaito house compared to general house music.
     </figcaption>
     </font>
 </figure>

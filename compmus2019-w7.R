@@ -85,8 +85,8 @@ house_styles %>%
   facet_wrap(~ playlist)
 
 
-kwaito <- summarise(feat_kwaito, dance = min(danceability), key = median(key), energy = mean(energy), mode = median(mode), instr = max(instrumentalness), tempo = min(tempo))
-house <- summarise(feat_house, dance = min(danceability), key = median(key), energy = mean(energy), mode = median(mode), instr = max(instrumentalness), tempo = min(tempo))
+kwaito <- summarise(feat_kwaito, dance = mean(danceability), key = median(key), energy = mean(energy), mode = median(mode), instr = mean(instrumentalness), tempo = mean(tempo))
+house <- summarise(feat_house, dance = mean(danceability), key = median(key), energy = mean(energy), mode = median(mode), instr = mean(instrumentalness), tempo = mean(tempo))
 
 kwaito
 house
