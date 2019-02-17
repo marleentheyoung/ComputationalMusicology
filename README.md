@@ -25,13 +25,10 @@ New school hip hop contains three times as much instrumentalism as old school hi
 Although modern hip hop is usually faster than old school hip hop, there are some very slow outliers. The minimum in tempo is 50 BPM for new school hip hop, where the minimum for old school hip hop is 80 BPM. I think I do need to include these outliers since this variance could be a signifier of modern hip hop.
 
 # Exploratory Results
-![GitHub Logo](/images/energy_smooth_hist.png)
-Format: ![Alt Text](url)
-
 <figure>
     <img src='/images/energy_smooth_hist.png' />
     <font size="2">
-    <figcaption> Abb.1: <a href= "http://r-spatial.org//2016/11/29/openeo.html">http://r-spatial.org//2016/11/29/openeo.html </a> 
+    <figcaption> Fig.1:  smooth histogram visualizing energy distribution of kwaito house compared to general house music.
     </figcaption>
     </font>
 </figure>
