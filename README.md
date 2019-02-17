@@ -1,6 +1,6 @@
 # ComputationalMusicology
 [This corpus has been changed since last week]
-tes test tes
+
 # Corpus
 At the time Nelson Mandela took office, South Africa's music industry changed rapidly. The removal of economic and political sanctions created space for the post-apartheid music style called "Kwaito".  Kwaito music is influenced by hip-hop, jazz and african styles but mainly grew as a variant of house to the bigger cities of South Africa. It became well known in the clubs of Johannesburg and its popularity spread out to neighbouring countries like Namibia and Botswana. 
 
