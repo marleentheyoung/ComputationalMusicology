@@ -27,11 +27,3 @@ Although modern hip hop is usually faster than old school hip hop, there are som
 # Exploratory Results
 ![GitHub Logo](/images/energy_smooth_hist.png)
 Format: ![Alt Text](url)
-
-$ \textit{jojeo}
-$
-
-<p>
-    <img src="/images/energy_smooth_hist.png" alt>
-    <em>image_caption</em>
-</p>
