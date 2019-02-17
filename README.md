@@ -28,16 +28,28 @@ Although modern hip hop is usually faster than old school hip hop, there are som
 ### Summary
 The two styles can be summarized as following:
 
-| Danceability | Key | Energy |  Mode  | Instrumentalness | Tempo |
-| ------------ | --- | ------ | ------ | ---------------- | ----- |
-|     0.22     |  D  |  0.67  |  Major |        0.95      | 60.89 |
-|     0.23     |  D  |  0.79  |  Minor |        0.96      | 84.93 |
+|     Style     | Danceability | Key | Energy |  Mode  | Instrumentalness | Tempo |
+| ------------- | ------------ | --- | ------ | ------ | ---------------- | ----- |
+| Kwaito House  |     0.73     |  D  |  0.67  |  Major |        0.17      | 121.6 |
+| General House |     0.72     |  D  |  0.79  |  Minor |        0.32      | 123.7 |
 
+From this table it stands out that many features are very similar for the two styles. The energy, mode and instrumentalness do seem to be distinctive. Therefore we will look into those features some more.
+
+### Energy
+As can be seen below, the peak of the dancability histogram is located significantly higher for general house than for kwaito house. General house barely contains tracks with a low energy measure. Kwaito house contains both energetic as less energetic tracks. This becomes clear again in the violin plot.
 
 <figure>
     <img src='/images/energy_smooth_hist.png' width="40%", height=auto/>
     <font size="2">
     <figcaption> Fig.1:  smooth histogram visualizing energy distribution of <br> kwaito house compared to general house music.
+    </figcaption>
+    </font>
+</figure>
+
+<figure>
+    <img src='/images/energy_violin.png' width="40%", height=auto/>
+    <font size="2">
+    <figcaption> Fig.1:  violin plot visualizing energy distribution of <br> kwaito house compared to general house music.
     </figcaption>
     </font>
 </figure>
