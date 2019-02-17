@@ -27,3 +27,11 @@ Although modern hip hop is usually faster than old school hip hop, there are som
 # Exploratory Results
 ![GitHub Logo](/images/energy_smooth_hist.png)
 Format: ![Alt Text](url)
+
+<figure>
+    <img src='/images/energy_smooth_hist.png' />
+    <font size="2">
+    <figcaption> Abb.1: <a href= "http://r-spatial.org//2016/11/29/openeo.html">http://r-spatial.org//2016/11/29/openeo.html </a> 
+    </figcaption>
+    </font>
+</figure>
