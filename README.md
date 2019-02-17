@@ -1,5 +1,7 @@
 # ComputationalMusicology
+[This corpus has been changed since last week]
 
+# Corpus
 The corpus I have created consists of 3084 hip hop tracks from various periods in time. The following subgenres are represented in this corpus:
 - Old school hip hop
 - Turntablism
