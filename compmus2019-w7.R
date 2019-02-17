@@ -83,3 +83,10 @@ house_styles %>%
   geom_point() + 
   geom_smooth() +
   facet_wrap(~ playlist)
+
+
+kwaito <- summarise(feat_kwaito, dance = min(danceability), key = median(key), energy = mean(energy), mode = median(mode), instr = max(instrumentalness), tempo = min(tempo))
+house <- summarise(feat_house, dance = min(danceability), key = median(key), energy = mean(energy), mode = median(mode), instr = max(instrumentalness), tempo = min(tempo))
+
+kwaito
+house
