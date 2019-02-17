@@ -30,8 +30,8 @@ The two styles can be summarized as following:
 
 |     Style     | Danceability | Key | Energy |  Mode  | Instrumentalness | Tempo |
 | ------------- | ------------ | --- | ------ | ------ | ---------------- | ----- |
-| Kwaito House  |     0.73     |  D  |  0.67  |  Major |        0.17      | 121.6 |
-| General House |     0.72     |  D  |  0.79  |  Minor |        0.32      | 123.7 |
+| Kwaito House  |     0.73     |  D  |  0.67  |  Major |        0.17      |  120  |
+| General House |     0.72     |  D  |  0.79  |  Minor |        0.32      |  125  |
 
 From this table it stands out that many features are very similar for the two styles. The energy, mode and instrumentalness do seem to be distinctive. Therefore we will look into those features some more.
 
@@ -45,7 +45,7 @@ As can be seen below, the peak of the dancability histogram is located significa
     </figcaption>
     </font>
 </figure>
-
+<br>
 <figure>
     <img src='/images/energy_violin.png' width="40%", height=auto/>
     <font size="2">
@@ -53,6 +53,38 @@ As can be seen below, the peak of the dancability histogram is located significa
     </figcaption>
     </font>
 </figure>
+<br>
+<br>
+
+## Tempo
+<figure>
+    <img src='/images/tempo_smooth_hist.png' width="80%", height=auto/>
+    <font size="2">
+    <figcaption> Fig.1:  smooth histogram visualizing tempo distribution of <br> kwaito house compared to general house music.
+    </figcaption>
+    </font>
+</figure>
+
+<figure>
+    <img src='/images/tempo_violin.png' width="80%", height=auto/>
+    <font size="2">
+    <figcaption> Fig.1:  smooth histogram visualizing tempo distribution of <br> kwaito house compared to general house music.
+    </figcaption>
+    </font>
+</figure>
+
+## Instrumentalness
+Kwaito house uses little to no instrumentality. This is a general characteristic of house, but Kwaito seems to further emphasize this characteristic.
+
+<figure>
+    <img src='/images/instrumentalness_smooth_hist.png' width="40%", height=auto/>
+    <font size="2">
+    <figcaption> Fig.1:  smooth histogram visualizing danceability distribution of <br> kwaito house compared to general house music.
+    </figcaption>
+    </font>
+</figure>
+<br>
+<br>
 
 <figure>
     <img src='/images/danceability_smooth_hist.png' width="40%", height=auto/>
@@ -61,13 +93,8 @@ As can be seen below, the peak of the dancability histogram is located significa
     </figcaption>
     </font>
 </figure>
+<br>
+<br>
 
-<figure>
-    <img src='/images/tempo_smooth_hist.png' width="80%", height=auto/>
-    <font size="2">
-    <figcaption> Fig.1:  smooth histogram visualizing tempo distribution of <br> kwaito house compared to general house music.
-    </figcaption>
-    </font>
-</figure>
 
 
