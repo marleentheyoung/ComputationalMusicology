@@ -26,13 +26,13 @@ Although modern hip hop is usually faster than old school hip hop, there are som
 
 # Exploratory Results
 <div class="row">
-  <div class="column">
+  <div class="column" float= "left" width="33.33%", padding="5px">
     <img src='/images/energy_smooth_hist.png' width="20%", height=auto/>
   </div>
-  <div class="column">
+  <div class="column" float= "left" width="33.33%", padding="5px">
     <img src='/images/energy_smooth_hist.png' width="20%", height=auto/>
   </div>
-  <div class="column">
+  <div class="column" float= "left" width="33.33%", padding="5px">
     <img src='/images/energy_smooth_hist.png' width="20%", height=auto/>
   </div>
 </div>
