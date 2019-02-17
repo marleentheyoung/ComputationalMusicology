@@ -23,3 +23,7 @@ In this project I will analyze how hip hop has changed over time. Up till now, I
 New school hip hop contains three times as much instrumentalism as old school hip hop. I had already expected this since the 'wordsmith'/MC was the pionier of hip hop and the rhymes were definitely most important in early hip hop. 
 
 Although modern hip hop is usually faster than old school hip hop, there are some very slow outliers. The minimum in tempo is 50 BPM for new school hip hop, where the minimum for old school hip hop is 80 BPM. I think I do need to include these outliers since this variance could be a signifier of modern hip hop.
+
+# Exploratory Results
+![GitHub Logo](/images/energy_smooth_hist.png)
+Format: ![Alt Text](url)
