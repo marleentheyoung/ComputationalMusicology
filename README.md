@@ -27,10 +27,12 @@ Although modern hip hop is usually faster than old school hip hop, there are som
 ## Exploratory Results
 ### Summary
 The two styles can be summarized as following:
-  | Danceability | Key | Energy |  Mode  | Instrumentalness | Tempo |
-  | ------------ | --- | ------ | ------ | ---------------- | ----- |
-  |     0.22     |  D  |  0.67  |  Major |        0.95      | 60.89 |
-  |     0.23     |  D  |  0.79  |  Minor |        0.96      | 84.93 |
+
+| Danceability | Key | Energy |  Mode  | Instrumentalness | Tempo |
+| ------------ | --- | ------ | ------ | ---------------- | ----- |
+|     0.22     |  D  |  0.67  |  Major |        0.95      | 60.89 |
+|     0.23     |  D  |  0.79  |  Minor |        0.96      | 84.93 |
+
 
 <figure>
     <img src='/images/energy_smooth_hist.png' width="40%", height=auto/>
