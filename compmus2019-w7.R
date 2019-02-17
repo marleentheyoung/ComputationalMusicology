@@ -1,23 +1,55 @@
+# Install spotifyr (one time)
+
+install.packages('devtools')
+devtools::install_github('charlie86/spotifyr')
+install.packages('spotifyr')
+
 # Load libraries (every time)
 
 library(tidyverse)
 library(spotifyr)
 
 # Set Spotify access variables (every time)
+Sys.setenv(SPOTIFY_CLIENT_ID = 'ff46227457cc4e6b81d31f9524e754ba')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = '8e752762f4bb48faad570b85c09c60d6')
 
-Sys.setenv(SPOTIFY_CLIENT_ID = 'YOUR_CLIENT_ID')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = 'YOUR_CLIENT_SECRET')
+playlists <- get_user_playlists('marleentheyoung')
 
-# Download Grammy and Edison award playlists (pop) for 2019
+# Get Kwaito House playlists
 
-grammy <- get_playlist_audio_features('digster.fm', '4kQovkgBZTd8h2HCM3fF31')
-edison <- get_playlist_audio_features('spotify', '37i9dQZF1DX8mnKbIkppDf')
+kwaito_house <- playlists %>%
+  filter(playlist_name == 'The Sound of Kwaito House' | playlist_name == 'The Pulse of Kwaito House'
+         |playlist_name == 'Intro to Kwaito House' | playlist_name == '2018 in Kwaito House')
+kwaito_house
+
+# Get House playlists
+
+house <- playlists %>%
+  filter(playlist_name == 'The Sound of House' | playlist_name == 'The Pulse of House'
+         |playlist_name == 'Intro to House' | playlist_name == 'The Edge of House')
+house
+
+# load kwaito house tracks
+
+tracks_kwaito <- get_playlist_tracks(kwaito_house)
+feat_kwaito <-
+  get_track_audio_features(tracks_kwaito)
+tracks_kwaito
+feat_kwaito
+
+tracks_house <- get_playlist_tracks(house)
+feat_house <-
+  get_track_audio_features(tracks_house)
+tracks_house
+feat_house
 
 # Combine data sets with a labelling variable
 
-awards <-
-    grammy %>% mutate(playlist = "Grammys") %>%
-    bind_rows(edison %>% mutate(playlist = "Edisons"))
+house_styles <-
+    feat_kwaito %>% mutate(playlist = "Kwaito") %>%
+    bind_rows(feat_house %>% mutate(playlist = "General House"))
+
+house_styles
 
 # Start with histogram or bar for showing one variable.
 
