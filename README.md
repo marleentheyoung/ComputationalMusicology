@@ -32,6 +32,3 @@ Although modern hip hop is usually faster than old school hip hop, there are som
     </figcaption>
     </font>
 </figure>
-
-![GitHub Logo](/images/energy_smooth_hist.png)
-.center[A figure caption.]
