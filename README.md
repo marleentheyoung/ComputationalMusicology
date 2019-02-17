@@ -29,6 +29,6 @@ Although modern hip hop is usually faster than old school hip hop, there are som
 Format: ![Alt Text](url)
 
 <p>
-    <img src="path_to_image" alt>
+    <img src="/images/energy_smooth_hist.png" alt>
     <em>image_caption</em>
 </p>
