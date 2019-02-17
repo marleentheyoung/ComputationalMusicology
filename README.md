@@ -98,7 +98,7 @@ The figure below show the relation between tempo and danceability in these two s
 <figure>
     <img src='/images/Rplot07.png' width="50%", height=auto/>
     <font size="2">
-    <figcaption> Fig.1:  smooth histogram visualizing danceability distribution of <br> kwaito house compared to general house music.
+    <figcaption> Fig.1:  scatterplot visualizing tempo distribution in relation to the danceability <br> kwaito house compared to general house music.
     </figcaption>
     </font>
 </figure>
