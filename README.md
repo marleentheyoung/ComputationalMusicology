@@ -42,7 +42,7 @@ Although modern hip hop is usually faster than old school hip hop, there are som
 </figure>
 
 <figure>
-    <img src='/images/tempo_smooth_hist.png' width="70%", height=auto/>
+    <img src='/images/tempo_smooth_hist.png' width="80%", height=auto/>
     <font size="2">
     <figcaption> Fig.1:  smooth histogram visualizing energy distribution of <br> kwaito house compared to general house music.
     </figcaption>
