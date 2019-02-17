@@ -96,7 +96,7 @@ Kwaito house uses little to no instrumentality. This is a general characteristic
 The figure below show the relation between tempo and danceability in these two styles. The figure gives a clear explanation for the difference in danceability of both styles. As stated before, Kwaito house's tempo has a higher variance than general house. Danceability is at its peak at around 125 BPM. Almost all tracks of the general house playlist have this specific tempo. Kwaito House tracks can contain more varying tempo's and the tracks at this peak of danceability are therefore less dense.
 
 <figure>
-    <img src='/images/Rplot07.png' width="40%", height=auto/>
+    <img src='/images/Rplot07.png' width="50%", height=auto/>
     <font size="2">
     <figcaption> Fig.1:  smooth histogram visualizing danceability distribution of <br> kwaito house compared to general house music.
     </figcaption>
